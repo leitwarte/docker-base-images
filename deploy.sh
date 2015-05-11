@@ -12,4 +12,4 @@ docker run -d \
     -p 80:3000 \
     --link leitwarte-mongo:mongo \
     --name leitwarte-web \
-    leitwarte-web
+    leitwarte/leitwarte
